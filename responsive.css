@@ -1,0 +1,203 @@
+@media (orientation: portrait) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: var(--bg-color);
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    section{
+        padding: 1.5rem;
+        padding-top: 5rem;
+    }
+
+    /* Home  */
+
+    #home{
+        background-position: center;
+        padding-top: 5rem;
+    }
+    .home-text{
+        width: 100%;
+        overflow: hidden;
+        padding: 1rem;
+    }
+    .home-text h5{
+       text-align: center;
+       padding-top: 2rem;
+    }
+    .pacifico-regular{
+        text-align: center;
+        font-size: 3.5rem;
+        margin: 1rem 0;
+        line-height: 4rem;
+    }
+    .leaf-branch{
+        height: 5rem;
+        padding: .7rem  .2rem;
+    }
+
+    /* About */
+    #about .cards{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    gap: 1px;
+    position: relative;
+    top: -10rem;
+    z-index: 1;
+}
+
+#about .card{
+    width: 90%;
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+#about .card h3{
+ font-size: 1rem;
+  }
+  #about  .card h2{
+    font-size: 1.2rem;
+    padding: 0 1rem;
+  }
+  #about .card img{
+    height: 4rem;
+}
+.about-main{
+    flex-direction: column;
+    margin-top: -3rem;
+}
+.images{
+    width: 100%;
+}
+.main-image{
+    margin-right: 1rem;
+    height: 35vh;
+}
+.main-image2{
+    left: 5%;
+    height: 20vh;
+}
+.about-info{
+    width: 100%;
+}
+.about-info h1{
+    font-size: 2rem;
+}
+.about-icon div{
+    width: 50%;
+}
+.about-icon div h4{
+    font-size: 1rem;
+    padding-right: .4rem;
+}
+
+/* Services */
+.products{
+flex-direction: column;
+}
+.section-heading h1{
+    font-size: 2rem;
+}
+.projects-images{
+    flex-direction: column;
+}
+.image{
+    height: 20rem;
+    width: 15rem;
+}
+.image img{
+    height: 20rem;
+    width: 15rem;  
+}
+.image-text{
+    opacity: 1;
+}
+/* Shop */
+#shop{
+    flex-direction: column;
+}
+.shop-image{
+    width: 100%;
+}
+.shop-img{
+    margin-right: 0;
+   width: 100%;
+   object-position: right;
+}
+.shop-info{
+    width: 100%;
+}
+
+/* News */
+.card-content {
+    padding: 0px;
+    bottom: 1.5rem;
+
+}
+.card img {
+    height: 60vh;
+}
+
+/* Contact Form */
+
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    font-size: 13px;
+}
+
+.contact-form button {
+    font-size: 14px;
+}
+
+/* Footer CSS */
+.footer .container {
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-section.about {
+    text-align: center;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-section.about .logo {
+    margin: 0 auto;
+}
+
+.footer-bottom {
+    margin-top: 0;
+}
+}
